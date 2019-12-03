@@ -1,0 +1,9 @@
+.icon-wrapper {
+    display: flex;
+}
+
+.fab {
+    color: white;
+    opacity: .8;
+    margin: .7rem;  
+}

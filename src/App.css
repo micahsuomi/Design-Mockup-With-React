@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+
+}
+
+:root {
+  
+  /* COLOR PALETTE */
+  --primary-grey-dark: rgb(54, 57, 63);
+  --secondary-grey-dark: #414141;
+  --primary-grey-darker: #343434;
+  --secondary-grey-darker: #222;
+  --grey-light: #efefef;
+  --primary-blue: rgb(60, 52, 94);
+  --primary-yellow: rgb(240, 240, 222);
+
+  /* FONTS */
+  --font-size-big: 2.4em;
+  --font-size-medium: 2em;
+  --font-size-small: 1.6em;
+  
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.thinner {
+  font-weight: 500;
+}
+
+.white-color {
+  color: white;
+}
+
+.App {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.main {
+  background-color: var(--grey-light);
+}
+
+
+.main-section-top__container,
+.main-section-middle__container,
+.main-section-bottom__container {
+  width: 100vw;
+  background-color: var(--grey-light);
+  padding: 6rem 15rem;
+}
+
+.main-section-middle-header-wrapper,
+.main-section-bottom__header,
+.main-section-bottom__right-section-header-container {
+    background-color: var(--grey-light);
+    border-bottom: 10px solid transparent;
+    border-image: url(./imgs/Border-BG.jpg) 30 round;
+    display: grid;
+    position: relative;
+    align-items: end;
+    justify-content: center;
+    padding: .4rem;
+}
+
+.middle__container__header, 
+.bottom__heading,
+.tight-section__header {
+    font-size: var(--font-size-big);
+    transform: translateY(86%);
+    background-color: var(--grey-light);
+}
+
+@media screen and (max-width: 768px) {
+
+  .main-section-top__container,
+  .main-section-middle__container,
+  .main-section-bottom__container {
+      padding: 2rem 1rem;
+}
+}
+@media screen and (max-width: 500px) {
+
+  .main-section-top__wrapper,
+    .blog-cards__wrapper,
+    .small-bubbles__wrapper,
+    .footer-top,
+    .footer-bottom {
+        grid-template-columns: 1fr;
+    }
+}

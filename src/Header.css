@@ -1,0 +1,79 @@
+.header-background {
+    background-image: linear-gradient(rgba(255, 129, 119, 0.5), rgba(83, 41, 102, 0.5)), url("https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: top;
+    border-bottom: 10px solid transparent;
+    border-image: url(./imgs/Border-BG.jpg) 30 round;
+
+}
+header {
+    width: 100vw;
+    
+}
+
+.header-top-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35em, 1fr));
+    justify-items: center;
+    padding: 1rem 15rem;
+    align-items: center;
+}
+
+.header-left__img {
+    width: 52em;
+}
+
+.header-right__heading,
+.header-right__subheading,
+.bottom-banner__heading {
+    color: white;
+    opacity: .8;
+}
+
+.header-right__heading,
+.bottom-banner__heading {
+    text-transform: uppercase;
+}
+
+.header-right__heading {
+    font-size: var(--font-size-big);
+}
+
+.header-right__subheading {
+    font-size: var(--font-size-small);
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .main-section-top__container {
+        padding: 2rem 5rem;
+
+    }
+
+    .header-top-wrapper {
+        padding: 1rem 8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-section-top__container {
+        padding: 2rem 1rem;
+
+    }
+
+   
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .header-top-wrapper {
+        padding: 1rem 1rem;
+    }
+
+    .header-left__img {
+        width: 34em;
+    }
+
+}

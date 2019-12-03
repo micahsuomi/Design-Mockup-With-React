@@ -1,0 +1,26 @@
+.footer-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: end;
+    align-items: center;
+    padding: 3rem 18rem;
+    background-color: var(--primary-grey-darker);
+
+}
+
+.footer-bottom__left {
+    justify-self: start;
+}
+.footer-bottom__left p {
+    color: #8d8d8d;
+}
+
+.footer-bottom__right {
+    display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-bottom {
+        padding: 3rem 2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.main-section-bottom__header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom__heading {
+    font-size: var(--font-size-big);
+}
+
+.small-bubbles__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(10em, 1fr));
+    justify-items: center;
+    margin-top: 2rem;
+}
+
+

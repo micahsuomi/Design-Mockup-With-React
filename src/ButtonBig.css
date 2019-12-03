@@ -1,0 +1,20 @@
+.blue-btn,
+.grey-btn {
+    color: white;
+    border-radius: 3px;
+    padding: 1em 1.25em;
+    box-shadow: 0 2rem 4rem rgba(43, 41, 41, 0.8);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: var(--font-size-small);
+
+}
+
+.btn__learn-more {
+    width: 15rem;
+    margin-top: 2rem;
+    background-color: var(--primary-blue);
+
+}

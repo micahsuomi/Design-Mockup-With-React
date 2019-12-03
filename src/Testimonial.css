@@ -1,0 +1,37 @@
+.small-bubble   {
+    background-color: white;
+    line-height: 1.4;
+    position: relative;
+    margin: 2.5rem 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 3rem rgb(66, 61, 61);
+
+}
+
+.small-bubble__header,
+.small-bubble__paragraph {
+    font-size: var(--font-size-small);
+}
+
+.small-bubble__paragraph {
+    margin-top: 1rem;
+}
+
+.small-bubble::after {
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 45px solid white;
+    position: absolute;
+
+}
+
+@media screen and (max-width: 500px) {
+    .small-bubble {
+        width: 33em;
+    }
+}

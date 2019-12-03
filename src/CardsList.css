@@ -1,0 +1,20 @@
+.main-section-top__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+    margin-top: 4rem;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 3rem;
+}
+
+    @media screen and (max-width: 768px) {
+        .main-section-top__container {
+            padding: 2rem 1rem;
+
+        }
+
+    }
+
+
+
+
