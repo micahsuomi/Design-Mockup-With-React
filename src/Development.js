@@ -19,14 +19,15 @@ class Development extends Component {
 
     showDesign() {
         console.log("working")
-        this.setState({designContent: true, productionContent: false}
-        )
+        this.setState({designContent: true, productionContent: false})
     }
 
     showProduction() {
         this.setState({productionContent: true, designContent: false})
     }
+
     render() {
+
         return (
             <div className="main-section-bottom__right-section">
             <div className="main-section-bottom__right-section-header-container">
@@ -35,7 +36,7 @@ class Development extends Component {
             <div className="main-section-bottom__right-section__container">
             <div className="tabs-container">
             <input type = "radio" className="design-radio" checked />
-            <label className="design-label show" htmlFor = "main-section-bottom__right-section__content" onClick={this.showDesign}>The Design</label>
+            <label className="design-label show" htmlFor = "main-section-bottom__right-section__content" style = {this.state.designContent ? {backgroundColor: "white"} : {backgroundColor: "lightgrey"}} onClick={this.showDesign}>The Design</label>
             {this.state.designContent ? 
                 <div className="inputs-content design-content">
                 <h3 className="right-section-content__header">{this.state.title1}</h3>
@@ -43,7 +44,7 @@ class Development extends Component {
                 <button className="blue-btn btn__read-more">Read More</button>
             </div> : null }
             <input type = "radio" className="production-radio" />
-            <label className="production-label" htmlFor = "main-section-bottom__right-section__content" onClick={this.showProduction}>The Production</label>
+            <label className="production-label" htmlFor = "main-section-bottom__right-section__content" style = {this.state.designContent ? {backgroundColor: "lightgrey"} : {backgroundColor: "white"}} onClick={this.showProduction}>The Production</label>
             {this.state.productionContent ?
             <div className="inputs-content production-content">
                 <h3 className="right-section-content__header">The Production</h3>
