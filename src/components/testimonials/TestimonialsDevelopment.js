@@ -1,8 +1,8 @@
 import React from 'react';
 import './TestimonialsDevelopment.css';
 import TestimonialsList from './TestimonialsList';
-import Development from './components/testimonials/Development';
-import Banner from './components/common/banner/Banner';
+import Development from './Development';
+import Banner from '../common/banner/Banner';
 
 const TestimonialsDevelopment = (props) => {
     return (

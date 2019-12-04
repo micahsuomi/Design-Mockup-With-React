@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonSmall from './ButtonSmall';
+import ButtonSmall from '../common/ButtonSmall';
 import './Card.css';
 
 const Card = (props) => {

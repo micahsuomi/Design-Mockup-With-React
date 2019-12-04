@@ -1,10 +1,11 @@
 import React from 'react';
 import './ButtonBig.css';
 
-function ButtonBig(props) {
+
+function ButtonBig({text, buttonStyle}) {
     return (
         <div>
-            <button className="blue-btn">{props.text}</button>
+            <button style={buttonStyle}>{text}</button>
         </div>
     )
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
-import headerImage from './imgs/Header-img.png';
-import ButtonLearnMore from './ButtonLearnMore';
-import Banner from './Banner';
+import headerImage from '../../imgs/Header-img.png';
+import ButtonLearnMore from '../common/ButtonLearnMore';
+import Banner from '../common/banner/Banner';
 
 const Header = (props) => {
     return (

@@ -1,11 +1,11 @@
 import React from 'react';
 import './Normalize.css';
 import './App.css';
-import Header from './Header';
-import CardsList from './CardsList';
-import BlogList from './BlogList';
-import TestimonialsDevelopment from './TestimonialsDevelopment';
-import Footer from './Footer';
+import Header from './components/header/Header';
+import CardsList from './components/services/CardsList';
+import BlogList from './components/blogs/BlogList';
+import TestimonialsDevelopment from './components/testimonials/TestimonialsDevelopment';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (

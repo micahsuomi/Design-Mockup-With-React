@@ -1,6 +1,7 @@
 .main-section-bottom__container {
     width: 100vw;
     position: relative;
+    height: 80vh;
 }
 
 .main-section-bottom__wrapper {
@@ -13,6 +14,7 @@
 @media screen and (max-width: 1024px) {
     .main-section-bottom__container {
         padding: 5rem 1rem 4rem 0rem;
+        height: 60vh;
       }
 }
 
