@@ -1,6 +1,6 @@
 .footer-bottom {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     justify-items: end;
     align-items: center;
     padding: 3rem 18rem;
@@ -22,5 +22,11 @@
 @media screen and (max-width: 1024px) {
     .footer-bottom {
         padding: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .footer-bottom {
+        justify-items: center;
     }
 }
