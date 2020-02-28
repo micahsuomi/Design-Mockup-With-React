@@ -1,20 +1,20 @@
 import React from 'react';
-import './FooterBottom.css';
+import '../../assets/style/FooterBottom.css';
 import FooterIcon from './FooterIcon';
 import footerIconData from './FooterIconData';
 
 const FooterBottom = () => {
 
-    const icons = footerIconData.map((item) => {
-        return <FooterIcon icon={item.icon}/>
+    const icons = footerIconData.map((item, index) => {
+        return <FooterIcon key={index} icon={item.icon}/>
     })
     return (
         
-            <div class="footer-bottom">
-            <div class="footer-bottom__left">
-                <p class="footer-top__item-paragraph">Copyright @2003-2012 Ventus Ivc. All Rights Reserved.</p>
+            <div className="footer-bottom">
+            <div className="footer-bottom__left">
+                <p className="footer-top__item-paragraph">Copyright @2003-2012 Ventus Ivc. All Rights Reserved.</p>
             </div>
-            <div class="footer-bottom__right">
+            <div className="footer-bottom__right">
                      {icons}
                 </div>
 

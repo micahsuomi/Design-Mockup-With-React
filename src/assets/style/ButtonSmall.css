@@ -5,3 +5,8 @@
     margin-top: 1rem;
     
 }
+
+.btn__read-more:hover {
+    background-color: var(--secondary-blue);
+    transform: translateY(-.1rem);
+}

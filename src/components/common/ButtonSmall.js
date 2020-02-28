@@ -1,5 +1,5 @@
 import React from 'react';
-import './ButtonSmall.css';
+import '../../assets/style/ButtonSmall.css';
 
 const ButtonSmall = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
-import './ButtonBig.css';
+import '../../assets/style/ButtonBig.css';
 
 
-function ButtonBig({text, buttonStyle}) {
+const ButtonBig = ({text, buttonStyle}) => {
     return (
         <div>
             <button style={buttonStyle}>{text}</button>

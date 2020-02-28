@@ -1,5 +1,5 @@
 import React from 'react';
-import './Banner.css';
+import '../../assets/style/Banner.css';
 import ButtonBig from '../../../ButtonBig';
 import {buttonStyle} from  '../../../buttonStyle';
 

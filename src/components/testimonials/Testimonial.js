@@ -1,12 +1,12 @@
 import React from 'react';
-import './Testimonial.css';
+import '../../assets/style/Testimonial.css';
 
-const Testimonial = (props) =>{
+const Testimonial = (props) => {
+    let {name, text} = props;
     return (
-        <div class="small-bubble">
-            {props.key}
-            <h3 class="small-bubble__header">{props.name}</h3>
-                <p class="small-bubble__paragraph italic">{props.text}</p>
+        <div className="small-bubble">
+            <h3 className="small-bubble__header">{name}</h3>
+                <p className="small-bubble__paragraph italic">{text}</p>
             </div>
     )
 }

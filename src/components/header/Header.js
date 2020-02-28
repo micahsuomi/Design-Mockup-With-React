@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import '../../assets/style/Header.css';
 import headerImage from '../../imgs/Header-img.png';
 import ButtonLearnMore from '../common/ButtonLearnMore';
 import Banner from '../common/banner/Banner';

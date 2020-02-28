@@ -1,9 +1,9 @@
 import React from 'react';
-import './TestimonialsList.css';
+import '../../assets/style/TestimonialsList.css';
 import testimonialData from './TestimonialData';
 import Testimonial from './Testimonial';
 
-const TestimonialsList = (props) => {
+const TestimonialsList = () => {
     const testimonials = testimonialData.map((item) => {
         return <Testimonial 
         key={item.id}
@@ -13,13 +13,13 @@ const TestimonialsList = (props) => {
     })
     return (
 
-        <div class="main-section-bottom__left-container">
-            <div class="main-section-bottom__header-left-container">
-                <div class="main-section-bottom__header">
-                    <span class="bottom__heading">Testimonials</span>
+        <div className="main-section-bottom__left-container">
+            <div className="main-section-bottom__header-left-container">
+                <div className="main-section-bottom__header">
+                    <span className="bottom__heading">Testimonials</span>
                 </div>
             </div> 
-            <div class="main-section-bottom small-bubbles__wrapper">
+            <div className="main-section-bottom small-bubbles__wrapper">
                 {testimonials}    
         
             </div>

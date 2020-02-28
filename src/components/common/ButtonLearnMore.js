@@ -1,5 +1,5 @@
 import React from 'react';
-import './ButtonLearnMore.css';
+import '../../assets/style/ButtonLearnMore.css';
 
 const ButtonLearnMore = (props) => {
     return (

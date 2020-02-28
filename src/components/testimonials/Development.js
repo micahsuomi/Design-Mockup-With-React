@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Development.css';
+import '../../assets/style/Development.css';
 
 
 class Development extends Component {
@@ -26,6 +26,10 @@ class Development extends Component {
         this.setState({productionContent: true, designContent: false})
     }
 
+    handleChange() {
+
+    }
+
     render() {
 
         return (
@@ -35,7 +39,7 @@ class Development extends Component {
                 </div>
             <div className="main-section-bottom__right-section__container">
             <div className="tabs-container">
-            <input type = "radio" className="design-radio" checked />
+            <input type = "radio" className="design-radio" checked readOnly/>
             <label className="design-label show" htmlFor = "main-section-bottom__right-section__content" style = {this.state.designContent ? {backgroundColor: "white"} : {backgroundColor: "lightgrey"}} onClick={this.showDesign}>The Design</label>
             {this.state.designContent ? 
                 <div className="inputs-content design-content">
@@ -43,7 +47,7 @@ class Development extends Component {
                 <p className="right-section-content__paragraph italic">{this.state.content}</p>
                 <button className="blue-btn btn__read-more">Read More</button>
             </div> : null }
-            <input type = "radio" className="production-radio" />
+            <input type = "radio" className="production-radio" readOnly />
             <label className="production-label" htmlFor = "main-section-bottom__right-section__content" style = {this.state.designContent ? {backgroundColor: "lightgrey"} : {backgroundColor: "white"}} onClick={this.showProduction}>The Production</label>
             {this.state.productionContent ?
             <div className="inputs-content production-content">

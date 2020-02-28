@@ -8,5 +8,6 @@ export const buttonStyle = {
     fontWeight: '700',
     cursor:'pointer',
     fontSize: 'var(--font-size-small)',
+    backgroundColor: 'var(--primary-magenta)'
 
 }

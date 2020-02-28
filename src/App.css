@@ -23,7 +23,9 @@ body {
   --secondary-grey-darker: #222;
   --grey-light: #efefef;
   --primary-blue: #3c355f;
+  --secondary-blue: #211e2e;
   --primary-yellow: rgb(240, 240, 222);
+  --primary-magenta: rgb(224, 55, 97);
 
   /* FONTS */
   --font-size-big: 2.4em;
@@ -72,7 +74,7 @@ body {
 .main-section-bottom__right-section-header-container {
     background-color: var(--grey-light);
     border-bottom: 10px solid transparent;
-    border-image: url(./imgs/Border-BG.jpg) 30 round;
+    border-image: url(./assets/imgs/Border-BG.jpg) 30 round;
     display: grid;
     position: relative;
     align-items: end;

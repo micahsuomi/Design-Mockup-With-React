@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: top;
     border-bottom: 10px solid transparent;
-    border-image: url(../../imgs/Border-BG.jpg) 30 round;
+    border-image: url(../imgs/Border-BG.jpg) 30 round;
 
 }
 header {

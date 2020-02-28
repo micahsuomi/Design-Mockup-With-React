@@ -1,13 +1,9 @@
 import React, {Component} from 'react';
 import Card from './Card';
 import cardData from './CardData';
-import './CardsList.css';
+import '../../assets/style/CardsList.css';
 
 class CardsList extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
 
     render() {
 

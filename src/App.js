@@ -7,7 +7,7 @@ import BlogList from './components/blogs/BlogList';
 import TestimonialsDevelopment from './components/testimonials/TestimonialsDevelopment';
 import Footer from './components/footer/Footer';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header />

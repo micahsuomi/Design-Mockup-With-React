@@ -1,15 +1,15 @@
 import React from 'react';
-import './TestimonialsDevelopment.css';
+import '../../assets/style/TestimonialsDevelopment.css';
 import TestimonialsList from './TestimonialsList';
 import Development from './Development';
 import Banner from '../common/banner/Banner';
 
-const TestimonialsDevelopment = (props) => {
+const TestimonialsDevelopment = () => {
     return (
              <div>
-             <div class="main-section-bottom__container">
+             <div className="main-section-bottom__container">
            
-                    <div class="main-section-bottom__wrapper">
+                    <div className="main-section-bottom__wrapper">
                         <TestimonialsList />
                         <Development />
                             </div>

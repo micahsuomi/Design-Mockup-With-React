@@ -1,7 +1,7 @@
 import React from 'react';
 import Blog from './Blog';
 import blogData from './BlogData';
-import './BlogList.css';
+import '../../assets/style/BlogList.css';
 
 const BlogList = () => {
 

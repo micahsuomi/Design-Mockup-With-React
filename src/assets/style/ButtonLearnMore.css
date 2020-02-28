@@ -12,9 +12,18 @@
 
 }
 
+.grey-btn {
+    background-color: var(--primary-magenta);
+}
+
 .btn__learn-more {
     width: 15rem;
     margin-top: 2rem;
     background-color: var(--primary-blue);
 
+}
+
+.btn__learn-more:hover {
+    background-color: var(--secondary-blue);
+    transform: translateY(-.1rem);
 }
