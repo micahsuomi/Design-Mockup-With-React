@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/style/Header.css';
-import headerImage from '../../imgs/Header-img.png';
+import headerImage from '../../assets/imgs/Header-img.png';
 import ButtonLearnMore from '../common/ButtonLearnMore';
 import Banner from '../common/banner/Banner';
 
